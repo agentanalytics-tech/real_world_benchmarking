@@ -1,0 +1,12 @@
+Step 1 - We have already provided the data in staging_data folder with query_map.csv in source_data folder
+
+Step 2:
+Using prepare_data.py new folder is created, processed_data which contains data ready to upload in pinecone and waveflowDB
+
+Step 3 & 4: 
+Data upload using WaveflowDB and pinecone credentials
+
+Step 5:
+Running pipeline.py which will create final results in results folder
+
+Please note, with provided .env file you can directly run Step 5 and validate the results.
